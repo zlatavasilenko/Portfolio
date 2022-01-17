@@ -1,0 +1,415 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243d;
+}
+.wrapper {
+  margin: 0;
+  width: 1152px;
+}
+
+section {
+  width: 1152px;
+}
+header {
+  height: 166px;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu {
+  width: 260px;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style-type: none;
+  color: #000000;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  color: #ff6464;
+}
+.section1 {
+  width: 856px;
+  display: flex;
+  justify-content: space-between;
+}
+.paragraph {
+  width: 856px;
+  display: flex;
+  justify-content: space-between;
+}
+.box1 {
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hi {
+  margin: 0;
+  width: 430px;
+  height: 101px;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+  text-shadow: 0px 4px 4px;
+}
+.text {
+  width: 467px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+button {
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px;
+  width: 208px;
+  height: 47px;
+  background: #ff6464;
+  border-radius: 2px;
+}
+.section2 {
+  height: 396px;
+  background: #edf7fa;
+}
+.choise {
+  display: flex;
+  justify-content: space-between;
+}
+.Recent {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 60px;
+}
+.viewall {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #00a8cc;
+}
+.posts {
+  width: 856px;
+  display: flex;
+  justify-content: space-between;
+}
+.postleft {
+  background-color: #ffffff;
+  width: 418px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.postright {
+  background-color: #ffffff;
+  width: 418px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.namepost {
+  margin: 0;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 38px;
+}
+.exclusion {
+  width: 279px;
+  display: flex;
+  justify-content: space-between;
+}
+.exclusion2 {
+  width: 306px;
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  border-right: 1px solid #000000;
+  width: 130px;
+  height: 21px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+}
+.name {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+}
+.textpost {
+  width: 350px;
+  height: 117px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.box {
+  width: 831px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+}
+.inbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.paragraphinbox {
+  width: 198px;
+  display: flex;
+  justify-content: space-between;
+}
+.dateinbox {
+  width: 62px;
+  height: 25px;
+  background: #142850;
+  border-radius: 16px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+.nameinbox {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+.content {
+  width: 567px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+footer {
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.social {
+  margin: 0;
+  padding: 0;
+  width: 234px;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  padding-top: 26px;
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+@media screen and (max-width: 375px) {
+  body {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243d;
+  }
+  .wrapper {
+    margin: 0;
+    width: 375px;
+  }
+  section {
+    width: 375px;
+  }
+  header {
+    height: 50px;
+  }
+  .menu {
+    display: none;
+  }
+  .mobilemenu {
+    padding: 20px 18px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .section1 {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .paragraph {
+    width: 375px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .imgmobile {
+    width: 180px;
+    height: 180px;
+  }
+  .hi {
+    text-align: center;
+    width: 305px;
+    height: 115px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    text-shadow: none;
+  }
+  .text {
+    width: 328px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  button {
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: none;
+    width: 208px;
+    height: 47px;
+    background: #ff6464;
+    border-radius: 2px solid #ffffff;
+  }
+  .Recent {
+    font-size: 18px;
+    line-height: 60px;
+  }
+  .viewall {
+    display: none;
+  }
+  .section2 {
+    height: 647px;
+    background: #edf7fa;
+  }
+  .posts {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .postleft {
+    width: 354px;
+    height: 266px;
+  }
+  .postright {
+    width: 354px;
+    height: 266px;
+  }
+  .namepost {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .exclusion {
+    width: 246px;
+  }
+  .exclusion2 {
+    width: 276px;
+  }
+  .date {
+    width: 113px;
+    height: 21px;
+
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .name {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .textpost {
+    width: 314px;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .box {
+    width: 344px;
+
+    flex-direction: column;
+  }
+  .box:nth-child(3) {
+    display: none;
+  }
+  .box:nth-child(4) {
+    display: none;
+  }
+
+  .paragraphinbox {
+    width: 162px;
+  }
+
+  .nameinbox {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .content {
+    width: 344px;
+  }
+
+  footer {
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+  .social {
+    margin: 0;
+    padding: 0;
+    width: 234px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright {
+    padding-top: 26px;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .center {
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .try {
+    width: 329px;
+    display: flex;
+    flex-direction: column;
+  }
+}

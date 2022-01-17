@@ -1,0 +1,184 @@
+.wrapper {
+  margin: 0;
+  width: 1152px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243d;
+}
+
+.menu {
+  width: 260px;
+  display: flex;
+  justify-content: space-around;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  color: #ff6464;
+}
+.activework {
+  color: #ff6464;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  height: 160px;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 0px;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+h2 {
+  margin: 0;
+  width: 372px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.paragraph {
+  width: 332px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  width: 136px;
+  height: 25px;
+  border-right: 1px solid #000000;
+}
+
+.name {
+  color: #8695a4;
+}
+
+.content {
+  width: 611px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.cententcover {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin-top: 32px;
+  padding-bottom: 22px;
+  width: 681px;
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+footer {
+  padding-top: 53px;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.social {
+  margin: 0;
+  padding: 0;
+  width: 234px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  padding-top: 26px;
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+@media screen and (max-width: 375px) {
+  .wrapper {
+    width: 375px;
+  }
+  body {
+    width: 375px;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .menu {
+    display: none;
+  }
+  .mobilemenu {
+    padding: 20px 18px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header {
+    height: 50px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38px;
+    width: 312px;
+  }
+  .paragraph {
+    width: 264px;
+  }
+  .date {
+    width: 103px;
+  }
+  .content {
+    width: 339px;
+  }
+  .box {
+    width: 339px;
+    height: 204px;
+  }
+  footer {
+    padding-top: 57px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+}
